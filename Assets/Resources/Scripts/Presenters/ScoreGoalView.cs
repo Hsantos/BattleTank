@@ -1,4 +1,5 @@
 using System;
+using hSantos.BattleTank.Presenters;
 using UnityEngine;
 
 public class ScoreGoalView : ObservableMonoBehaviour<ScoreGoalView> {
@@ -11,8 +12,7 @@ public class ScoreGoalView : ObservableMonoBehaviour<ScoreGoalView> {
     }
    
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("OnCollisionEnter2D Hit Goal");
-        if (other.transform.GetComponent<BallView>() != null) {
+        if (other.transform.GetComponent<BallPresenter>() != null) {
             NotifyAllObservers(this);
         }
     }

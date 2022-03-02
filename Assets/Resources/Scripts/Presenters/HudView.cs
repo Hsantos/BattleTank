@@ -16,7 +16,6 @@ public class HudView : MonoBehaviour, IObserver<ScoreGoalView> {
     }
 
     public void OnNotify(ScoreGoalView item) {
-        Debug.Log("Score for : " +  item.PlayerMessage);
         
         switch (item.PlayerMessage) {
             case PlayerMessage.Player1:

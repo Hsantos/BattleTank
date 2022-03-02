@@ -1,12 +1,14 @@
 using System;
+using hSantos.BattleTank.Controllers;
+using hSantos.BattleTank.Presenters;
 using UnityEngine;
 
 public class GameView : MonoBehaviour, IObserver<ScreenButtonView> {
 
     private GameSettings settings;
     [SerializeField] private HudView hudView;
-    [SerializeField] private TankView tankViewA;
-    [SerializeField] private TankView tankViewB;
+    [SerializeField] private TankController tankControllerA;
+    [SerializeField] private TankController tankControllerB;
     [SerializeField] private ScoreGoalView scoreGoalViewA;
     [SerializeField] private ScoreGoalView scoreGoalViewB;
     public void StartGame(GameSettings settings) {
@@ -19,10 +21,10 @@ public class GameView : MonoBehaviour, IObserver<ScreenButtonView> {
     public void OnNotify(ScreenButtonView item) {
         switch (item.PlayerMessage) {
             case PlayerMessage.Player1:
-                tankViewA.NotifyClick();
+                tankControllerA.NotifyClick();
                 break;
             case PlayerMessage.Player2:
-                tankViewB.NotifyClick();
+                tankControllerB.NotifyClick();
                 break;
             default:
                 throw new NotImplementedException();

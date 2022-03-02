@@ -1244,15 +1244,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336006117}
   m_CullTransparentMesh: 1
---- !u!114 &1372864046 stripped
+--- !u!114 &1372864048 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6983633478409857785, guid: 94fce0ecef7d3496a86ea422e27ff981, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4465304690552005369, guid: 94fce0ecef7d3496a86ea422e27ff981, type: 3}
   m_PrefabInstance: {fileID: 898986279}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c64c2dbae61042da89757d70ed7e943, type: 3}
+  m_Script: {fileID: 11500000, guid: f71298b2352bd4d78a1d5dbd236dec57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1382562642
@@ -1381,15 +1381,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 694377165753489697, guid: 94fce0ecef7d3496a86ea422e27ff981, type: 3}
   m_PrefabInstance: {fileID: 694377164130513607}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1623550951 stripped
+--- !u!114 &1623550952 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6983633478409857785, guid: 94fce0ecef7d3496a86ea422e27ff981, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4465304690552005369, guid: 94fce0ecef7d3496a86ea422e27ff981, type: 3}
   m_PrefabInstance: {fileID: 694377164130513607}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c64c2dbae61042da89757d70ed7e943, type: 3}
+  m_Script: {fileID: 11500000, guid: f71298b2352bd4d78a1d5dbd236dec57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1712726275 stripped
@@ -1449,8 +1449,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hudView: {fileID: 13657971}
-  tankViewA: {fileID: 1623550951}
-  tankViewB: {fileID: 1372864046}
+  tankControllerA: {fileID: 1623550952}
+  tankControllerB: {fileID: 1372864048}
   scoreGoalViewA: {fileID: 1479777184}
   scoreGoalViewB: {fileID: 1712726275}
 --- !u!1 &1920642005

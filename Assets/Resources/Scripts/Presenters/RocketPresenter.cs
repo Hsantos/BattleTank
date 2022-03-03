@@ -25,7 +25,7 @@ namespace hSantos.BattleTank.Presenters {
         }
 
         public void Explode() {
-            Destroy(gameObject);
+            //Do some animation
         }
     }
 }

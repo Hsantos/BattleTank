@@ -14,6 +14,9 @@
                 </e>
               </e>
               <e p="DesignPatterns" t="Include">
+                <e p="ObjectPooling" t="Include">
+                  <e p="ObjectPoolingMonoBehaviour.cs" t="Include" />
+                </e>
                 <e p="Observer" t="Include">
                   <e p="IObservable.cs" t="Include" />
                   <e p="IObserver.cs" t="Include" />

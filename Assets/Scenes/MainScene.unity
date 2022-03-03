@@ -374,6 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMessage: 1
+  canPressButton: 1
 --- !u!1 &355891491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,6 +1377,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7365955442940296285, guid: 32780ac42020245d0a464bc42d4f3b0d, type: 3}
   m_PrefabInstance: {fileID: 7365955441329870619}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1612524362 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 952226002050055845, guid: 32780ac42020245d0a464bc42d4f3b0d, type: 3}
+  m_PrefabInstance: {fileID: 7365955441329870619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40187459c00a14416925c7a021d54b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1623550950 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 694377165753489697, guid: 94fce0ecef7d3496a86ea422e27ff981, type: 3}
@@ -1451,6 +1463,7 @@ MonoBehaviour:
   hudView: {fileID: 13657971}
   tankControllerA: {fileID: 1623550952}
   tankControllerB: {fileID: 1372864048}
+  ballController: {fileID: 1612524362}
   scoreGoalViewA: {fileID: 1479777184}
   scoreGoalViewB: {fileID: 1712726275}
 --- !u!1 &1920642005
@@ -1619,6 +1632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMessage: 2
+  canPressButton: 1
 --- !u!1 &2023551136
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,7 +1676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a2822ef28414bd19eec0104f40f072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSettings: {fileID: 11400000, guid: 455431ec6339f4884b0f396a2a2c6319, type: 2}
+  gameSettings: {fileID: 11400000, guid: 2a84b76356e20411bafe75bfccbc5295, type: 2}
   gameView: {fileID: 1749660802}
 --- !u!1 &2103463513
 GameObject:

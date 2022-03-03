@@ -7,14 +7,10 @@ namespace hSantos.BattleTank.Presenters {
         [SerializeField] private Transform rocketOrigin;
         [SerializeField] private RocketPresenter prefabRef;
 
-        public void Shoot() {
+        public void Shoot(float speed) {
             var obj = Instantiate(prefabRef, rocketOrigin.position, rocketOrigin.rotation);
-            var controller = obj.GetComponent<RocketController>();
-            DispatchRocket(controller);
-        }
-
-        private void DispatchRocket(RocketController rocket) {
-            rocket.Launch(rocketOrigin);
+            var rocket = obj.GetComponent<RocketController>();
+            rocket.Launch(rocketOrigin, speed);
         }
 
         public void DoRotation(Vector3 direction) {

@@ -2,9 +2,10 @@ using UnityEngine;
 
 namespace hSantos.BattleTank.UseCases {
     public class RocketInteractor: Interactor<IRocketOutput> {
-        private float speed = 10f;
+        private float speed;
         private Vector3 direction;
-        public void Launch(Vector3 direction) {
+        public void Launch(Vector3 direction, float speed) {
+            this.speed = speed;
             this.direction = direction;
             var impulse = direction * speed;
             output.Launch(impulse);

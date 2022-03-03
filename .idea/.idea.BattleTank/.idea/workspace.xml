@@ -25,9 +25,21 @@
     <list default="true" id="64eeda4b-5d7a-4d61-889b-882b885d3519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BattleTank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BattleTank/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Ball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Rocket.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Rocket.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Common/DesignPatterns/Observer/ScreenButtonView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Common/DesignPatterns/Observer/ScreenButtonView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/BallController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/RocketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/RocketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/TankController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/TankController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Model/GameSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Model/GameSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/BallPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/BallPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/GameView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/GameView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/HudView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/HudView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/TankPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/TankPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/ScriptableObjects/GameSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/ScriptableObjects/GameSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/ScriptableObjects/GameSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/ScriptableObjects/GameSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/BallInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/BallInteractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/ITankOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/ITankOutput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/RocketInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/RocketInteractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/TankInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/TankInteractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +67,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/ScriptableObjects/GameSettingsScriptableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Startup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Model/GameSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/View/WallView.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/View/TankView.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/View/RocketView.cs" />
@@ -66,25 +77,27 @@
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/View/ScoreGoalView.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/View/ScoreView.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/View/HudView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/IBallOutput.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/TankView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/ITankOutput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/GameView.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/ScoreGoalView.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/RocketView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/HudView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Common/Architecture/CleanArchitecture/Interactor.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Common/Architecture/CleanArchitecture/ControllerMonoBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/BallInteractor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/TankController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/TankInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/IRocketOutput.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/RocketPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/RocketInteractor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/RocketController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/TankController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/TankInteractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/ITankOutput.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/TankPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/RocketController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/RocketInteractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Controllers/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/BallInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/BallPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/UseCases/IBallOutput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/HudView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Presenters/GameView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Common/DesignPatterns/Observer/ScreenButtonView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Model/GameSettings.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645813388869</updated>
-      <workItem from="1645813401996" duration="35287000" />
+      <workItem from="1645813401996" duration="40512000" />
     </task>
     <servers />
   </component>
@@ -159,10 +172,10 @@
     <state x="31" y="25" width="1683" height="1019" key="dock-window-1/-1920.25.1920.1055/0.25.1792.1019@-1920.25.1920.1055" timestamp="1646248557135" />
     <state x="-1460" y="327" width="1683" height="1017" key="dock-window-1/-1920.25.1920.1055/0.25.1792.1019@0.25.1792.1019" timestamp="1646311908014" />
     <state x="31" y="25" width="1683" height="1017" key="dock-window-1/-1920.25.1920.1055/0.25.1792.1021@-1920.25.1920.1055" timestamp="1646307133355" />
-    <state x="-1267" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1646253261698">
+    <state x="-1267" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1646328496040">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state x="-1267" y="239" width="672" height="678" key="search.everywhere.popup/-1920.25.1920.1055/0.25.1792.1019@-1920.25.1920.1055" timestamp="1646249006274" />
+    <state x="-1267" y="239" width="672" height="678" key="search.everywhere.popup/-1920.25.1920.1055/0.25.1792.1019@-1920.25.1920.1055" timestamp="1646328496040" />
     <state x="-1267" y="239" width="672" height="678" key="search.everywhere.popup/-1920.25.1920.1055/0.25.1792.1021@-1920.25.1920.1055" timestamp="1646253261698" />
     <state x="-1267" y="239" width="672" height="678" key="search.everywhere.popup/-1920.25.1920.1055/0.25.1792.1023@-1920.25.1920.1055" timestamp="1646249155874" />
     <state x="-1267" y="239" width="672" height="678" key="search.everywhere.popup/-1920.25.1920.1055/0.25.1792.1026@-1920.25.1920.1055" timestamp="1646164911546" />

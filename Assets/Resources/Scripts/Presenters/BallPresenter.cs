@@ -7,7 +7,7 @@ namespace hSantos.BattleTank.Presenters {
     public class BallPresenter : MonoBehaviour, IBallOutput {
         private Rigidbody2D body;
 
-        [SerializeField] private ParticleSystem particleSystem;
+        [SerializeField] private ParticleSystem particleView;
         public Vector2 Velocity => body.velocity;
         private void Awake() {
             body = GetComponent<Rigidbody2D>();
@@ -16,11 +16,9 @@ namespace hSantos.BattleTank.Presenters {
         public void ReceiveHit(Vector2 hit) {
             body.AddForce(hit, ForceMode2D.Impulse);
 
-            var particleSystemVelocityOverLifetime = particleSystem.velocityOverLifetime;
+            var particleSystemVelocityOverLifetime = particleView.velocityOverLifetime;
             particleSystemVelocityOverLifetime.yMultiplier = -(Mathf.Round(hit.normalized.y));
-
-            
-            particleSystem.Play();
+            particleView.Play();
         }
 
         public void ReceiveFriction(Vector2 friction) {

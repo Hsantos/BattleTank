@@ -7,9 +7,9 @@ public class HudView : MonoBehaviour, IObserver<ScoreGoalView> {
 
     private int countScoreA;
     private int countScoreB;
-    public void Initiate(IObserver<ScreenButtonView> observer) {
-        buttonUp.Initiate(observer);
-        buttonDown.Initiate(observer);
+    public void Initiate(IObserver<ScreenButtonView> observer, GameSettings gameSettings) {
+        buttonUp.Initiate(observer,gameSettings.playerInputDelay);
+        buttonDown.Initiate(observer,gameSettings.playerInputDelay);
         
         scoreView.UpdateScorePlayerA(0);
         scoreView.UpdateScorePlayerB(0);

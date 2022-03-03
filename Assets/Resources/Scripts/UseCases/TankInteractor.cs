@@ -3,7 +3,13 @@ using UnityEngine;
 namespace hSantos.BattleTank.UseCases {
     public class TankInteractor: Interactor<ITankOutput> {
         private bool rotationStarted;
-        private float speed = 0.5f;
+        private float speed;
+        private float rocketSpeed;
+
+        public void Initiate(GameSettings settings) {
+            speed = settings.tankSpeedRotation;
+            rocketSpeed = settings.rocketSpeed;
+        }
         public TankInteractor() {
             rotationStarted = true;
         }
@@ -17,7 +23,7 @@ namespace hSantos.BattleTank.UseCases {
         }
 
         public void NotifyClick() {
-            output.Shoot();
+            output.Shoot(rocketSpeed);
         }
     }
 }

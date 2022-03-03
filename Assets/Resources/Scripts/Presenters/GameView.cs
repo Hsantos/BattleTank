@@ -9,13 +9,17 @@ public class GameView : MonoBehaviour, IObserver<ScreenButtonView> {
     [SerializeField] private HudView hudView;
     [SerializeField] private TankController tankControllerA;
     [SerializeField] private TankController tankControllerB;
+    [SerializeField] private BallController ballController;
     [SerializeField] private ScoreGoalView scoreGoalViewA;
     [SerializeField] private ScoreGoalView scoreGoalViewB;
     public void StartGame(GameSettings settings) {
         this.settings = settings;
-        hudView.Initiate(this);
+        hudView.Initiate(this, settings);
+        tankControllerA.Initiate(settings);
+        tankControllerB.Initiate(settings);
         scoreGoalViewA.Initiate(hudView);
         scoreGoalViewB.Initiate(hudView);
+        ballController.Initiate(settings);
     }
 
     public void OnNotify(ScreenButtonView item) {

@@ -6,8 +6,7 @@ namespace hSantos.BattleTank.Presenters {
     public class RocketPresenter : MonoBehaviour, IRocketOutput {
 
         private Rigidbody2D body;
-        private IRocketOutput rocketOutputImplementation;
-
+        
         private void Awake() {
             body = GetComponent<Rigidbody2D>();
         }
